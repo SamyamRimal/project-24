@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* body{
+    background-color: black;
+    color: white;
+} */
+
+.sm {
+  float: left;
+  margin-left: -150px;
+}
+
+.bi {
+  float: left;
+  margin-left: -1px;
+  font-size: 3rem;
+}
+
+nav {
+  float: right;
+}
+
+header ul {
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+header ul li {
+  display: inline;
+  margin-left: 50px;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+}
+.ic {
+  float: right;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 5px 12px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+
+.borde {
+  border: 1.5px solid transparent;
+}
+
+.borde:hover {
+  border: 1px solid red;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+}
+
+.back-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  flex-direction: column;
+  background-image: url(classroom.img/elegant-living-room-furniture-sets-3ag55-scaled.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.clll {
+  font-weight: 900;
+  font-size: 4rem;
+  font-family: fangsong;
+}
+
+.store {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial
+    Narrow", Arial, sans-serif;
+}
+/* main */
+.ext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  gap: 25px;
+}
+
+.class {
+  color: blue;
+  font-family: ui-serif;
+  font-size: 1.35rem;
+}
+
+.cla {
+  font-size: 2.5rem;
+  width: 805px;
+  text-align: center;
+}
+
+.pag {
+  font-size: 26px;
+  width: 47%;
+  color: #000000b8;
+  font-family: none;
+  text-align: center;
+}
+
+/* box4 */
+.shoping {
+  height: 385px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.boc {
+  height: 400px;
+  width: 28%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+
+.cure {
+  height: 350px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header {
+  list-style-type: none;
+  font-size: 1.1rem;
+}
+
+.header li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.header li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* back-black */
+
+.hero {
+  height: 1090px;
+  margin-top: 70px;
+}
+.hero-height {
+  background-image: url(classroom.img/9A7452E3-F66F-4CFB-9BBA-49EB98590607_1_105_c-7f121ca6c27c43668a7bf8a3d8957a31.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-black {
+  background-color: black;
+  height: 700px;
+  width: 100%;
+  opacity: 0.6;
+  position: absolute;
+}
+
+.kaho {
+  color: white;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ max-width: 105vw;
+  margin: auto;
+}
+
+.fourty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.qp {
+    background-color: blue;
+    padding: 8px 25px;
+    color: white;
+    font-size: 1.125rem;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-top: 30px;
+  }
+  
+/* footer */
+
+footer {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: #222f3d;
+  color: white;
+}
+
+.foot1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ohla {
+  width: 380px;
+  text-align: left;
+}
+
+.ola {
+  display: block;
+  margin-top: 22px;
+  font-family: system-ui;
+  font-weight: 400;
+}
+
+  .foot2 {
+    margin-right: 165px;
+    margin-left: 20px;
+  }
+  
+  .foot4 {
+    display: flex;
+    justify-content: space-evenly;
+    /* max-width: 61vw;
+      margin: auto; */
+  }
+  
+  .foot3 {
+    font-family: fangsong;
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+  
+  .sepra {
+    background-color: #37475a;
+    height: 10px;
+  }
+  .container {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blockfour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 92px;
+  }
+  
+  .blocksix{
+    
+    height: 50px;
+  }
+  
+  .blockfive{
+    
+    height: 50px;
+    margin-top: 15px;
+  }
+  
